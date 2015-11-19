@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
+	<id>com.style.test2015</id>
+	<name>test2015</name>
+	<version>1.0</version>
+	<publisher>not specified</publisher>
+	<url/>
+	<description/>
+	<copyright>not specified</copyright>
+	<icon>appicon.png</icon>
+	<fullscreen>false</fullscreen>
+	<navbar-hidden>false</navbar-hidden>
+	<analytics>true</analytics>
+	<guid>b8dedc64-8a5b-4e4b-bda9-fd94a8edf2b3</guid>
+	<property name="ti.ui.defaultunit" type="string">dp</property>
+	<ios>
+		<plist>
+			<dict>
+				<key>UISupportedInterfaceOrientations~iphone</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+				</array>
+				<key>UISupportedInterfaceOrientations~ipad</key>
+				<array>
+					<string>UIInterfaceOrientationPortrait</string>
+					<string>UIInterfaceOrientationPortraitUpsideDown</string>
+					<string>UIInterfaceOrientationLandscapeLeft</string>
+					<string>UIInterfaceOrientationLandscapeRight</string>
+				</array>
+				<key>UIRequiresPersistentWiFi</key>
+				<false/>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+				<key>UIStatusBarHidden</key>
+				<false/>
+				<key>UIStatusBarStyle</key>
+				<string>UIStatusBarStyleDefault</string>
+			</dict>
+		</plist>
+	</ios>
+	<android xmlns:android="http://schemas.android.com/apk/res/android">
+	</android>
+	<mobileweb>
+		<precache>
+		</precache>
+		<splash>
+			<enabled>true</enabled>
+			<inline-css-images>true</inline-css-images>
+		</splash>
+		<theme>default</theme>
+	</mobileweb>
+	<modules>
+    <module platform="android" version="1.2.0">de.marcelpociot.collectionview</module>
+    <module platform="iphone" version="1.4.0">de.marcelpociot.collectionview</module>
+    <module platform="android" version="0.6">com.rkam.swiperefreshlayout</module>
+  </modules>
+	<deployment-targets>
+		<target device="android">true</target>
+		<target device="ipad">false</target>
+		<target device="iphone">true</target>
+		<target device="mobileweb">false</target>
+		<target device="windows">false</target>
+	</deployment-targets>
+	<sdk-version>5.0.2.GA</sdk-version>
+<plugins><plugin version="1.0">ti.alloy</plugin>
+</plugins>
+<property name="Parse_AppId" type="string">Ad5Tj9sFEXAhLuqFnMCaREKYP6Y4UcktPPLUWc5S</property>
+<property name="Parse_RestKey" type="string">FFLgo3BR83giYjWznFoYP1Gg16FUXXiEk4n7Ouq6</property>
+<property name="Parse_JsKey" type="string">JbA2xbnTAwBHd7lybOoSw7F816WDIvvS5kOTtPfc</property>
+</ti:app>

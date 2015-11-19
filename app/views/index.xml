@@ -1,0 +1,22 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Parse List">
+			<Window class="container" title="List">
+				<Widget id="ptr" src="nl.fokkezb.pullToRefresh" onRelease="myRefresher">
+					<ListView id="listView">
+						<Templates>
+							<ItemTemplate name="t1">
+								<Label bindId="txt">normal</Label>
+							</ItemTemplate>
+							<ItemTemplate name="t2">
+								<Label bindId="txt" color="red">normal red</Label>
+							</ItemTemplate>
+						</Templates>
+							<ListSection id="section">
+							</ListSection>
+					</ListView>
+				</Widget>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>
